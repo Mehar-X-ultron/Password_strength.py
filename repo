@@ -1,0 +1,8 @@
+git init
+git add password_checker.py README.md LICENSE .gitignore
+git commit -m "Initial commit — password strength checker"
+
+# create repo on GitHub (do this first in the web UI), then:
+git remote add origin https://github.com/your-username/your-repo.git
+git branch -M main
+git push -u origin main
